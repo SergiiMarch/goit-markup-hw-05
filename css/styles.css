@@ -141,6 +141,9 @@ img {
   letter-spacing: 0.02em;
 
   color: var(--primary-text-color);
+
+  transition-duration: 250ms;
+  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .item-link:hover,
@@ -158,8 +161,10 @@ img {
   display: flex;
   gap: 50px;
 }
-.header-items {
+.header-item {
   margin-right: auto;
+  /* transition-duration: 250ms;
+  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1); */
 }
 
 .header-link {
@@ -182,6 +187,9 @@ img {
   letter-spacing: 0.02em;
 
   color: var(--title-text-color);
+
+  transition-duration: 250ms;
+  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .list-link:hover,
@@ -248,6 +256,9 @@ img {
   letter-spacing: 0.06em;
   min-width: 216px;
 
+  transition-duration: 250ms;
+  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+
   cursor: pointer;
   color: var(--white-text-color);
   background: var(--acent-color);
@@ -260,6 +271,7 @@ img {
 .main-btn:focus {
   color: var(--acent-color);
   background-color: var(--white-text-color);
+  transform: scale(1.15);
 }
 
 /* -------------Section Переваги------------- */
@@ -410,6 +422,9 @@ img {
   list-style: none;
 }
 .command-soc-list {
+  transition-duration: 250ms;
+  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+
   height: 44px;
   width: 44px;
 }
@@ -430,6 +445,9 @@ img {
   border-radius: 50%;
 
   color: var(--color-icon-command);
+
+  transition-duration: 250ms;
+  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .icon-command {
@@ -483,6 +501,9 @@ img {
   border-radius: 4px;
   box-sizing: border-box;
   color: var(--color-icon-command);
+
+  transition-duration: 250ms;
+  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .icon-client {
@@ -541,6 +562,10 @@ img {
   line-height: 1.71;
 
   color: var(--transparent-white-color);
+
+  transition-duration: 250ms;
+  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+  transition-property: background-color;
 }
 
 .link-mail:hover,
@@ -582,7 +607,6 @@ img {
 }
 
 .footer-block-list {
-  display: flex;
   width: 44px;
   height: 44px;
 }
@@ -599,6 +623,9 @@ img {
   height: 100%;
   border-radius: 50%;
   background-color: var(--footer-background-icon);
+  transition-duration: 250ms;
+  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+  transition-property: background-color;
 }
 
 .footer-block-icon {
