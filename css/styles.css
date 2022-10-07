@@ -19,7 +19,7 @@
   --background-color-icon-advantage: #f5f4fa;
   --color-icon-command: #afb1b8;
   --footer-background-icon: rgba(255, 255, 255, 10%);
-  --transition-duration: 1250ms;
+  --transition-duration: 250ms;
   --transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
 /* html {
